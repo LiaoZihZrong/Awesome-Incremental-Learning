@@ -1,5 +1,9 @@
-# Awesome Incremental Learning / Lifelong learning
-## Survey
+# paper整理-Incremental Learning
+---
+> 處理時間:2021/12/30
+> forked from xialeiliu/Awesome-Incremental-Learning
+# Incremental Learning / Lifelong learning
+## Review
 - <a name="todo"></a> Online Continual Learning in Image Classification: An Empirical Survey (**Neurocomputing 2021**) [[paper](https://arxiv.org/abs/2101.10423)] [[code](https://github.com/RaptorMai/online-continual-learning)]
 - <a name="todo"></a> Continual Lifelong Learning in Natural Language Processing: A Survey (**COLING 2020**) [[paper](https://www.aclweb.org/anthology/2020.coling-main.574/)]
 - <a name="todo"></a> Class-incremental learning: survey and performance evaluation (**arXiv 2020**) [[paper](https://arxiv.org/abs/2010.15277)] [[code](https://github.com/mmasana/FACIL)]
@@ -10,6 +14,11 @@
 - <a name="todo"></a> Three scenarios for continual learning (**arXiv 2019**)  [[paper](https://arxiv.org/abs/1904.07734v1)][[code](https://github.com/GMvandeVen/continual-learning)]
 ## Papers
 ### 2021
+- <a name="todo"></a> Multi-Domain Incremental Learning for Semantic Segmentation (**CVPR 2021**) [[paper](https://arxiv.org/abs/2110.12205)]
+- <a name="todo"></a> Dataset Knowledge Transfer for Class-Incremental Learning without Memory (**CVPR 2021**) [[paper](https://arxiv.org/abs/2110.08421)]
+- <a name="todo"></a> Incremental Learning for Dermatological Imaging Modality Classification (**2021**) [[paper](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiB1sPig431AhWLGaYKHdqIDosQFnoECAsQAQ&url=https%3A%2F%2Fwww.mdpi.com%2F2313-433X%2F7%2F9%2F180%2Fpdf&usg=AOvVaw3d-dTmq81KSNfZQI3po2gg
+)] 
+- <a name="todo"></a> Dynamic memory to alleviate catastrophic forgetting in continual learning with medical imaging (**2021**) [[paper](https://www.nature.com/articles/s41467-021-25858-z)] 
 - <a name="todo"></a> Incremental Object Detection via Meta-Learning (**TPAMI 2021**) [[paper](https://arxiv.org/abs/2003.08798)] [[code](https://github.com/JosephKJ/iOD)]
 - <a name="todo"></a> Class-Incremental Learning via Dual Augmentation (**NeurIPS2021**) [[paper](https://papers.nips.cc/paper/2021/file/77ee3bc58ce560b86c2b59363281e914-Paper.pdf)]
 - <a name="todo"></a> SSUL: Semantic Segmentation with Unknown Label for Exemplar-based Class-Incremental Learning (**NeurIPS2021**) [[paper](https://proceedings.neurips.cc/paper/2021/file/5a9542c773018268fc6271f7afeea969-Paper.pdf)]
@@ -101,6 +110,7 @@
 - <a name="todo"></a> A Continual Learning Framework for Uncertainty-Aware Interactive Image Segmentation(**AAAI, 2021**) [[paper](https://www.aaai.org/AAAI21Papers/AAAI-2989.ZhengE.pdf)] 
 - <a name="todo"></a> Do Not Forget to Attend to Uncertainty While Mitigating Catastrophic Forgetting(**WACV, 2021**) [[paper](https://openaccess.thecvf.com/content/WACV2021/html/Kurmi_Do_Not_Forget_to_Attend_to_Uncertainty_While_Mitigating_Catastrophic_WACV_2021_paper.html)] 
 ### 2020
+- <a name="todo"></a> Continual Class Incremental Learning for CT Thoracic Segmentation(**2020**) [[paper](https://arxiv.org/abs/2008.05557)] 
 - <a name="todo"></a> Rethinking Experience Replay: a Bag of Tricks for Continual Learning(**ICPR, 2020**) [[paper](https://arxiv.org/abs/2010.05595)] [[code](https://github.com/hastings24/rethinking_er)]
 - <a name="todo"></a> Continual Learning for Natural Language Generation in Task-oriented Dialog Systems(**EMNLP, 2020**) [[paper](https://arxiv.org/abs/2010.00910)] 
 - <a name="todo"></a> Distill and Replay for Continual Language Learning(**COLING, 2020**) [[paper](https://www.aclweb.org/anthology/2020.coling-main.318.pdf)] 
@@ -185,6 +195,7 @@ with Single-Side Overestimation (**ICCV2019**) [[paper](https://arxiv.org/pdf/19
 - <a name="todo"></a> A comprehensive, application-oriented study of catastrophic forgetting in DNNs (**ICLR2019**) [[paper](https://openreview.net/forum?id=BkloRs0qK7)] 
 
 ### 2018
+- <a name="todo"></a> Example Mining for Incremental Learning in Medical Imaging [[paper](https://arxiv.org/abs/1807.08942)] 
 - <a name="todo"></a> Memory Replay GANs: learning to generate images from new categories without forgetting
  (**NIPS2018**) [[paper](https://arxiv.org/abs/1809.02058)] [[code](https://github.com/WuChenshen/MeRGAN)]
  - <a name="todo"></a> Reinforced Continual Learning (**NIPS2018**) [[paper](http://papers.nips.cc/paper/7369-reinforced-continual-learning.pdf)] [[code](https://github.com/xujinfan/Reinforced-Continual-Learning)]
@@ -215,24 +226,3 @@ with Single-Side Overestimation (**ICCV2019**) [[paper](https://arxiv.org/pdf/19
 
 ### 2016
 - <a name="todo"></a> Learning without forgetting (**ECCV2016**) [[paper](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_37)] [[code](https://github.com/lizhitwo/LearningWithoutForgetting)]
-
-## [Awesome Long-Tailed Recognition / Imbalanced Learning](https://github.com/xialeiliu/Awesome-LongTailed-Recognition)
-#### Find it interesting that there are more shared techniques than I thought for incremental learning (exemplars-based). 
-
-## ContinualAI wiki
-#### [An Open Community of Researchers and Enthusiasts on Continual/Lifelong Learning for AI](https://www.continualai.org/)
-
-## Workshops
-#### [4th Lifelong Learning Workshop at ICML 2020](https://lifelongml.github.io/)
-#### [Workshop on Continual Learning at ICML 2020](https://icml.cc/Conferences/2020/Schedule?showEvent=5743)
-#### [Continual Learning in Computer Vision Workshop CVPR 2020](https://sites.google.com/view/clvision2020/overview)
-#### [Continual learning workshop NeurIPS 2018](https://sites.google.com/view/continual2018/home?authuser=0)
-
-## Challenges or Competitions
-#### [1st Lifelong Learning for Machine Translation Shared Task at WMT20 (EMNLP 2020)](http://www.statmt.org/wmt20/lifelong-learning-task.html)
-#### [Continual Learning in Computer Vision Challenge CVPR 2020](https://sites.google.com/view/clvision2020/challenge?authuser=0)
-#### [Lifelong Robotic Vision Challenge IROS 2019](https://lifelong-robotic-vision.github.io)
-
-## Feel free to contact me if you find any interesting paper is missing.
-## Workshop papers are currently out due to space.
-

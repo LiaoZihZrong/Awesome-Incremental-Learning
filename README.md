@@ -2,6 +2,8 @@
 ---
 > 處理時間:2021/12/30
 > forked from xialeiliu/Awesome-Incremental-Learning
+---
+> 新增幾篇醫學相關與2022之論文
 # Incremental Learning / Lifelong learning
 ## Review
 - <a name="todo"></a> Online Continual Learning in Image Classification: An Empirical Survey (**Neurocomputing 2021**) [[paper](https://arxiv.org/abs/2101.10423)] [[code](https://github.com/RaptorMai/online-continual-learning)]
